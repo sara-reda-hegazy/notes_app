@@ -10,7 +10,7 @@ class AddNoteCubit extends Cubit<AddNoteState> {
   AddNoteCubit() : super(AddNoteInitial());
 
 
-
+   
   addNote(NoteModel note)
   async {
     emit(AddNoteLoading());
